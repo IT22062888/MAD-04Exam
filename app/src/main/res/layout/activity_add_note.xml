@@ -6,6 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg1"
     tools:context=".AddNoteActivity">
 
     <TextView
@@ -15,9 +16,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Add Note."
-        android:textColor="@color/orange"
-        android:textSize="24sp" />
+        android:text="Add New Recipe"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/saveButton"
@@ -32,15 +34,15 @@
         android:id="@+id/titleEditText"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="Enter the title"
-        android:padding="12dp"
-        android:textSize="20sp"
         android:layout_below="@id/addNoteHeading"
-        android:background="@drawable/orange_border"
         android:layout_marginTop="16dp"
-        android:maxLines="1"
+        android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
-        />
+        android:hint="Enter the title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/contentEditText"
