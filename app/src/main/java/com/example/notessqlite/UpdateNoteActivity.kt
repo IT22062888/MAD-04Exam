@@ -3,8 +3,9 @@ package com.example.notessqlite
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.notessqlite.databinding.ActivityAddNoteBinding
 import com.example.notessqlite.databinding.ActivityUpdateNoteBinding
+import com.example.notessqlite.NoteDatabaseHelper
+import com.example.notessqlite.Note
 
 class UpdateNoteActivity : AppCompatActivity() {
 
@@ -26,7 +27,7 @@ class UpdateNoteActivity : AppCompatActivity() {
         }
         val note = db.getNoteByID(noteId)
         binding.updateTitleEditText.setText(note.title)
-        binding.updateContentEditText.setText(note.title)
+        binding.updateContentEditText.setText(note.content)
 
         binding.updateSaveButton.setOnClickListener {
             val newTitle = binding.updateTitleEditText.text.toString()

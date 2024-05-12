@@ -9,6 +9,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.example.notessqlite.Note
+import com.example.notessqlite.NoteDatabaseHelper
 
 class NotesAdapter (private var notes: List<Note>, context: Context):
     RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {

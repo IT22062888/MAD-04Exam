@@ -81,7 +81,6 @@ class NoteDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_
 
         cursor.close()
         db.close()
-        db.close()
         return Note(id, title, content)
     }
 

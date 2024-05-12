@@ -7,7 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.notessqlite.databinding.ActivityAddNoteBinding
-
+import com.example.notessqlite.Note
+import com.example.notessqlite.NoteDatabaseHelper
 class AddNoteActivity: AppCompatActivity() {
 
     private lateinit var binding: ActivityAddNoteBinding
