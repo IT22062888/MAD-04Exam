@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg3"
     tools:context=".AddNoteActivity">
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
         android:text="Add New Recipe"
-        android:textColor="@color/white"
+        android:textColor="#FF9800"
         android:textSize="34sp"
         android:textStyle="bold" />
 
