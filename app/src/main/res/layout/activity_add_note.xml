@@ -41,6 +41,7 @@
         android:hint="Enter the title"
         android:maxLines="1"
         android:padding="12dp"
+        android:textColor="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="20sp" />
 
@@ -48,14 +49,15 @@
         android:id="@+id/contentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Enter the description"
-        android:gravity="top"
-        android:padding="12dp"
-        android:textSize="18sp"
-        android:fontFamily="@font/poppins"
-        android:background="@drawable/orange_border"
         android:layout_below="@id/titleEditText"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="Enter the description"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>
